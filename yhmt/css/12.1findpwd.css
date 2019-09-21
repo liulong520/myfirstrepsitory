@@ -1,0 +1,237 @@
+.find-box {
+	width: 100%;
+	height: 557px;
+	border-top: 1px solid #FF2D52;
+}
+
+
+/*步骤一*/
+
+.step1 {
+	height: 557px;
+}
+
+.find-index {
+	width: 100%;
+	height: 220px;
+	position: relative;
+}
+
+.find-index-box1,
+.find-index-box2,
+.find-index-box3 {
+	width: 90px;
+	height: 84px;
+	position: absolute;
+}
+
+.find-index-box1 {
+	top: 80px;
+	left: 340px;
+}
+
+.find-index-box2 {
+	top: 80px;
+	left: 592px
+}
+
+.find-index-box3 {
+	top: 80px;
+	right: 276px
+}
+
+.find-radius1,
+.find-radius2,
+.find-radius3 {
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	line-height: 28px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.find-radius1 {
+	background: #ff2d52;
+	border: 3px solid #ffc0cb;
+}
+
+.find-radius2,
+.find-radius3 {
+	background: #cccccc;
+	border: 3px solid #ebebeb;
+}
+
+.find-level1 {
+	width: 460px;
+	border-bottom: 2px solid #cccccc;
+	margin-left: 368px;
+	vertical-align: 5px;
+	position: absolute;
+	top: 96px;
+	left: 34px;
+}
+
+.find-index-text1,
+.find-index-text2,
+.find-index-text3 {
+	text-align: center;
+	margin: 15px 0;
+}
+
+.find-index-text2,
+.find-index-text3 {
+	color: #b3b3b3;
+}
+
+.find-code {
+	width: 100%;
+	height: 172px;
+}
+
+.find-code-tel,
+.find-securitycode {
+	width: 380px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+}
+
+.find-code-tellphone {
+	width: 306px;
+	height: 40px;
+	line-height: 38px;
+	border: 1px solid #FF2D52;
+	padding-left: 15px;
+}
+
+.find-tellphone-input {
+	border: 0;
+	outline: 0;
+	vertical-align: 1px;
+}
+
+.find-securitycode {
+	margin-top: 20px;
+}
+
+.find-code1 {
+	width: 180px;
+	height: 38px;
+	border: 1px solid #CCCCCC;
+	padding-left: 15px;
+}
+
+.find-code2 {
+	width: 140px;
+	border: 0;
+	outline: 0;
+	vertical-align: 1px;
+}
+
+.find-code3 {
+	width: 104px;
+	height: 38px;
+	line-height: 38px;
+	color: #FFFFFF;
+	border: 0;
+	background: #FF2D52;
+	padding: 0 16px;
+	margin-left: 20px;
+}
+
+.find-btn {
+	width: 306px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 457px;
+	background: #FF2D52;
+	border: 0;
+	color: #FFFFFF;
+}
+
+
+/*步骤二*/
+
+.step2 {
+	height: 557px;
+	display: none;
+}
+
+.step2 .find-radius2 {
+	background: #ff2d52;
+	border: 3px solid #ffc0cb;
+}
+
+.step2 .find-index-text2 {
+	color: #FF2D52;
+}
+
+.step2-repwd {
+	width: 444px;
+	height: 38px;
+	margin-left: 396px;
+	margin-top: 20px;
+}
+
+.step2-repwd1 {
+	margin-top: 12px;
+}
+
+.step2 .find-code1 {
+	line-height: 38px;
+	width: 308px;
+}
+
+
+/*步骤三*/
+
+.step3 {
+	height: 557px;
+	display: none;
+}
+
+.step3 .find-radius2,
+.step3 .find-radius3 {
+	background: #ff2d52;
+	border: 3px solid #ffc0cb;
+}
+
+.step3 .find-index-text2,
+.step3 .find-index-text3 {
+	color: #FF2D52;
+}
+
+.find-success {
+	width: 100%;
+	height: 400px;
+}
+
+.find-successwarn {
+	width: 390px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.find-success-text {
+	width: 310px;
+	height: 100px;
+	padding-left: 18px;
+}
+
+.find-success-text p {
+	display: inline-block;
+}
+
+.find-success-text1 {}
+
+.find-success-text2 {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+#timedown {
+	color: #FF2D52;
+	font-size: 18px;
+}

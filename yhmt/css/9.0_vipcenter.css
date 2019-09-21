@@ -1,0 +1,515 @@
+.vip-box {
+	margin-top: 18px;
+	margin-bottom: 80px;
+	height: auto;
+	border: 1px solid #e2e2e2;
+}
+
+.vip-box-left {
+	width: 230px;
+	border-right: 1px solid #e2e2e2;
+}
+
+.vip-left {
+	width: 100%;
+	height: 60px;
+	background: #fff9f5;
+	line-height: 60px;
+	padding-left: 20px;
+}
+
+.vip-left-text {
+	display: inline-block;
+	width: 200px;
+	height: 100%;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 20px 0;
+	padding-left: 24px;
+	margin: 0 14px;
+}
+
+.vip-box-left li:last-child {
+	border-bottom: none;
+}
+
+.vip-left-text a {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+}
+
+.vip-left-text a:hover {
+	cursor: pointer;
+	color: #FF0000;
+}
+
+.vip-box-right {
+	width: 930px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.vip-right-top {
+	width: 930px;
+	height: 158px;
+	border: 1px solid #e2e2e2;
+	background: #fff9f5;
+}
+
+.vip-right-top-img {
+	width: 122px;
+	height: 122px;
+	background: url(../img/userimg.png) no-repeat;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.vip-right-top-title {
+	margin-top: 20px;
+	width: 766px;
+	height: 122px;
+}
+
+.vip-right-title {
+	width: 210px;
+	height: 90px;
+	margin-top: 20px;
+}
+
+.right-title-text1,
+.right-title-text2 {
+	display: block;
+}
+
+.right-title-text3 {
+	display: inline-block;
+	width: 48px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.vip-right-icon {
+	width: 556px;
+	height: 110px;
+}
+
+.vip-icon-text1 li {
+	width: 136px;
+	height: 100%;
+	text-align: center;
+	float: left;
+}
+
+.vip-icon-text1 span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.vip-icon-text2 {
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.right-title-text {
+	display: block;
+}
+
+.vip-right-bottom {
+	margin-top: 10px;
+	width: 930px;
+	height: auto;
+}
+
+.vip-bottom-lists {
+	float: left;
+	display: inline-block;
+	width: 452px;
+	height: 200px;
+	border: 1px solid #e2e2e2;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.vip-bottom-text {
+	margin-top: 1px;
+	margin: 0 auto;
+	padding-top: 6px;
+	width: 448px;
+	height: 40px;
+	background: #fff9f5;
+}
+
+.vip-bottom-text span:hover {
+	color: #FF2D52;
+	cursor: pointer;
+}
+
+.vip-bottom-title {
+	width: 452px;
+	height: 154px;
+}
+
+.vip-pre-img {
+	display: inline-block;
+	width: 412px;
+	height: 156px;
+	margin: 0 auto;
+	margin-top: 28px;
+}
+
+.vip-bottom-title span {
+	display: inline-block;
+	width: 22px;
+	height: 56px;
+	line-height: 54px;
+	text-align: center;
+	border: 1px solid #e4e4e4;
+	background: #f7f7f7;
+}
+
+.vip-pre {
+	margin-top: 50px;
+	margin-left: 8px;
+}
+
+.vip-next {
+	margin-top: 20px;
+}
+
+
+/*身份认证*/
+
+.vip-identity {
+	width: 930px;
+	height: auto;
+	margin-left: 20px;
+	display: none;
+}
+
+.vip-identity-title {
+	width: 100%;
+	height: 56px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.vip-identity-title span {
+	display: inline-block;
+	height: 56px;
+	line-height: 52px;
+	border-bottom: 2px solid #FF2D52;
+}
+
+.vip-identity-warn {
+	width: 100%;
+	height: 110px;
+	border: 1px solid #e2e2e2;
+	background: #fff9f5;
+	padding: 20px;
+}
+
+.vip-identity-warn p {
+	margin-bottom: 10px;
+}
+
+.vip-identityed {
+	width: 100%;
+	height: 378px;
+}
+
+.vip-identityed-text1,
+.vip-identityed-text2 {
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	font-size: 14px;
+}
+
+.vip-identityed-img1,
+.vip-identityed-img2 {
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+
+/*身份未认证*/
+
+.vip-identitying {
+	width: 930px;
+	height: auto;
+	margin-left: 20px;
+	display: none;
+}
+
+.vip-identitying-text1,
+.vip-identitying-text3 {
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+}
+
+.vip-identitying-text2 {
+	vertical-align: -3px;
+}
+
+.vip-identitying-input1,
+.vip-identitying-input2 {
+	width: 300px;
+	height: 38px;
+	border: 1px solid #E2E2E2;
+	outline: 0;
+	padding-left: 10px;
+	margin-left: 14px;
+}
+
+.vip-identitying-text4 {
+	width: 100%;
+	line-height: 38px;
+}
+
+.vip-identitying-text5,
+.vip-identitying-text6 {
+	width: 200px;
+	height: 128px;
+	border: 1px solid #e2e2e2;
+	background: #fff9f5;
+	line-height: 126px;
+	text-align: center;
+}
+
+.vip-identitying-text5 {
+	margin-left: 14px;
+}
+
+.vip-identitying-text7 {
+	width: 420px;
+	height: 100px;
+	margin-left: 95px;
+}
+
+.vip-identitying-text8,
+.vip-identitying-text9 {
+	width: 50%;
+	height: 100%;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.vip-identitying-text10 {
+	width: 100%;
+	height: 66px;
+	margin-top: 20px;
+}
+
+.vip-identitying-btn {
+	width: 96px;
+	height: 38px;
+	border-radius: 3px;
+	background: #FF2D52;
+	color: #FFFFFF;
+	border: 0;
+	margin-top: 30px;
+}
+
+
+/*我的优惠券*/
+
+.vip-coupon {
+	width: 930px;
+	margin-left: 20px;
+	display: none;
+}
+
+.vip-coupon-title {
+	height: 54px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.vip-coupon-title1 {
+	display: inline-block;
+	height: 54px;
+	line-height: 53px;
+	border-bottom: 2px solid #ff2d52;
+}
+
+.vip-coupon-text {
+	height: 260px;
+	border: 1px solid #E2E2E2;
+}
+
+.vip-coupon-text1 {
+	height: 40px;
+	background: #fff9f5;
+}
+
+.vip-coupon-lists li {
+	line-height: 40px;
+	padding: 0 30px;
+	float: left;
+}
+
+.vip-coupon-lists li:hover {
+	background: white;
+	color: #FF2D52;
+}
+
+.vip-coupon-text2 {
+	padding: 20px;
+}
+
+.vip-coupon-text3,
+.vip-coupon-text8,
+.vip-coupon-text9 {
+	width: 280px;
+	height: 180px;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	position: relative;
+	overflow: hidden;
+}
+
+.vip-coupon-text3 {
+	background: #fff9f5;
+}
+
+.vip-coupon-text8,
+.vip-coupon-text9 {
+	background: #f7f7f7;
+}
+
+.vip-coupon-text4 {
+	height: 104px;
+	border-bottom: 1px dashed #E2E2E2;
+	border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2;
+}
+
+.vip-coupon-text5 {
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.vip-coupon-text6 {
+	padding: 20px 0;
+}
+
+.vip-coupon-text7 {
+	height: 74px;
+	padding-top: 20px;
+	border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2;
+}
+
+.vip-coupon-btn1,
+.vip-coupon-btn2 {
+	width: 142px;
+	height: 38px;
+	border-radius: 38px;
+	color: white;
+	text-align: center;
+	line-height: 38px;
+	margin: 0 auto;
+}
+
+.vip-coupon-btn1 {
+	background: #FF2D52;
+}
+
+.vip-coupon-btn2 {
+	background: #AAAAAA;
+}
+
+.vip-coupon-radius1,
+.vip-coupon-radius2 {
+	width: 38px;
+	height: 38px;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.vip-coupon-radius1 {
+	top: 85px;
+	left: -19px;
+}
+
+.vip-coupon-radius2 {
+	top: 85px;
+	right: -19px;
+}
+
+
+/*我的积分*/
+
+.vip-integral {
+	width: 930px;
+	padding-right: 20px;
+	display: none;
+}
+
+.vip-integral-text {
+	height: 178px;
+	background: #fff9f5;
+	border: 1px solid #CCCCCC;
+	padding-left: 20px;
+}
+
+.vip-integral-text1 {
+	height: 50px;
+	line-height: 50px;
+}
+
+.vip-integral-btn {
+	width: 60px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background: #FF2D52;
+	color: white;
+	border-radius: 3px;
+	border: 0;
+}
+
+.vip-integral-text2 p {
+	height: 22px;
+	line-height: 22px;
+}
+
+.vip-integral-history {
+	height: 270px;
+	border: 1px solid #CCCCCC;
+}
+
+.vip-history-title {
+	height: 38px;
+	background: #fff9f5;
+}
+
+.vip-history-lists li {
+	height: 38px;
+	line-height: 38px;
+	padding-left: 160px;
+	padding-right: 108px;
+	float: left;
+}
+
+.vip-integral-detail {
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+.vip-integral-detail li {
+	width: 33.333%;
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	text-align: center;
+}
+
+.vip-integral-detail.integraldetail {
+	border-bottom: 0;
+}

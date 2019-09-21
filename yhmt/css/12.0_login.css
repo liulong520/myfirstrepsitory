@@ -1,0 +1,239 @@
+/*<!--登陆logo-->*/
+
+.login-logo {
+	height: 130px;
+}
+
+
+/*<!--背景轮播-->*/
+
+.login-banner {
+	height: 474px;
+	margin-bottom: 80px;
+	position: relative;
+}
+
+
+/*登陆*/
+
+.login {
+	width: 348px;
+	height: 360px;
+	background: white;
+	position: absolute;
+	top: 56px;
+	right: 240px;
+	padding: 24px 20px 26px 20px;
+	display: none;
+}
+
+.login-box {
+	width: 80px;
+	height: 18px;
+	margin-top: 5px;
+}
+
+.login-sanjiaobox {
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background: #FF2D52;
+	line-height: 17px;
+	text-align: center;
+}
+
+.login-title {
+	width: 100%;
+	height: 24px;
+}
+
+.login-warn {
+	width: 100%;
+	height: 25px;
+	border: 1px solid #FF2D52;
+	line-height: 23px;
+}
+
+.login-user {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #CCCCCC;
+	margin-top: 14px;
+	font-size: ;
+}
+
+.login-user-icon,
+.login-user-icon1 {
+	display: inline-block;
+	width: 39px;
+	height: 33px;
+	line-height: 33px;
+	margin: 3px 0;
+	color: #d0d0d0;
+	text-align: center;
+	border-right: 1px solid #CCCCCC;
+}
+
+.login-username,
+.login-password {
+	width: 262px;
+	height: 33px;
+	margin: 3px 0;
+	border: 0;
+	outline: 0;
+}
+
+.login-btn {
+	width: 100%;
+}
+
+.login-checkbox {
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+}
+
+.login-checkbox-text {
+	vertical-align: 3px;
+}
+
+.login-button,.register-button{
+	display: inline-block;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.login-method {
+	width: 100%;
+	height: 30px;
+}
+
+.login-method-text {
+	vertical-align: 8px;
+}
+
+
+/*注册*/
+
+.register {
+	width: 346px;
+	height: 420px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 28px;
+	right: 240px;
+	padding: 20px 20px;
+	/*display: none;*/
+}
+
+.register-title {
+	width: 100%;
+	height: 24px
+}
+
+.register-box {
+	width: 114px;
+	height: 16px;
+	margin-top: 6px;
+}
+
+.register-wrong {
+	width: 260px;
+	height: 20px;
+	border: 1px solid #FF2D52;
+	line-height: 18px;
+	text-align: center;
+}
+
+.register-tellphonenumber {
+	width: 100%;
+	height: 39px;
+	border: 1px solid #cccccc;
+	margin-top: 5px;
+	line-height: 37px;
+}
+
+.register-tel {
+	width: 270px;
+	height: 24px;
+	outline: none;
+	border: 0;
+}
+
+.register-telphone {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+}
+
+.register-telphone-text {
+	vertical-align: 1px;
+}
+
+.register-securityCode {
+	width: 192px;
+	height: 39px;
+	border: 1px solid #cccccc;
+	line-height: 37px;
+}
+
+.register-Code {
+	width: 160px;
+	height: 24px;
+	outline: none;
+	border: 0;
+}
+
+.Code-btn {
+	width: 104px;
+	height: 39px;
+	border: 0;
+	background: #FF2D52;
+	text-align: center;
+	line-height: 39px;
+}
+
+.register-password {
+	width: 100%;
+	height: 39px;
+	border: 1px solid #cccccc;
+	line-height: 37px;
+}
+
+.register-checkbox {
+	width: 100%;
+	height: 14px;
+	line-height: 14px;
+}
+
+.register-checkbox1 {
+	vertical-align: -3px;
+}
+
+/*注册验证提示的error样式*/
+label.error{
+	color: #FF2D52;
+	background: white;
+	position: absolute;
+	width: 260px;
+	height: 20px;
+	border: 1px solid #FF2D52;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-left: 5px;
+	top: -24px;
+	left: -6px;
+}
+.layer{
+	position: relative;
+}
+/*获取验证码*/
+.Code-btn.disable{
+	background: #E2E2E2;
+	cursor: no-drop;
+}

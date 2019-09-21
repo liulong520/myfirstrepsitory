@@ -1,0 +1,394 @@
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/*字体大小*/
+
+.font-12 {
+	font-size: 12px;
+}
+
+.font-14 {
+	font-size: 14px;
+}
+
+.font-16 {
+	font-size: 16px;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+
+.font-20 {
+	font-size: 20px;
+}
+
+.font-22 {
+	font-size: 22px;
+}
+
+.font-24 {
+	font-size: 24px;
+}
+
+.font-28{
+	font-size: 28px;
+}
+.font-30 {
+	font-size: 30px;
+}
+
+
+/*背景颜色*/
+
+
+/*红色*/
+
+.bg-groyblack {
+	background: #CCCCCC;
+}
+
+.bg-main {
+	background: #ff2d52;
+}
+
+.bg-main-active {
+	background: #EC193E;
+}
+
+
+/*黑色*/
+
+.bg-black {
+	background: #535353;
+}
+
+
+/*灰色*/
+
+.bg-gray {
+	background: #f2f2f2;
+}
+
+.bg-graywhite {
+	background: #f7f7f7;
+}
+
+
+/*白色*/
+
+.bg-white {
+	background: #fff;
+}
+
+.bg-orage {
+	background: #ff6600;
+}
+
+
+/*字体颜色*/
+
+.text-main {
+	color: #FF2D52;
+}
+
+.text-other {
+	color: #ff778a;
+}
+
+.text-main-active {
+	color: #ec193e;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.text-blackwhite {
+	color: #CCCCCC;
+}
+
+.text-redwhite {
+	color: #ff607c;
+}
+
+.text-red {
+	color: #ff4462;
+}
+
+.text-black {
+	color: #000;
+}
+
+.text-dark {
+	color: #333;
+}
+
+.text-gray {
+	color: #666;
+}
+
+.text-graylight {
+	color: #999;
+}
+
+.text-blackdark {
+	color: #aaa;
+}
+
+.text-gurydark {
+	color: #454545;
+}
+
+.text-orage {
+	color: #ff6600;
+}
+
+
+/*文字居中*/
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+
+/*浮动*/
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+/*清除浮动  三要素：content、display、clear*/
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+/*行高*/
+
+.line-22 {
+	line-height: 22px;
+}
+
+.line-24 {
+	line-height: 24px;
+}
+
+.line-36 {
+	line-height: 36px;
+}
+
+.line-48 {
+	line-height: 48px;
+}
+
+
+/*外边距*/
+
+.margin-left {
+	margin-left: 5px;
+}
+
+.margin-left-12 {
+	margin-left: 12px;
+}
+
+.margin-left-10 {
+	margin-left: 10px;
+}
+
+.margin-left-15 {
+	margin-left: 15px;
+}
+
+.margin-left-20 {
+	margin-left: 20px;
+}
+
+.margin-left-22 {
+	margin-left: 22px;
+}
+
+.margin-right {
+	margin-right: 5px;
+}
+
+.margin-right-10 {
+	margin-right: 10px;
+}
+
+.margin-right-20 {
+	margin-right: 20px;
+}
+
+.margin-right-22 {
+	margin-right: 22px;
+}
+
+.margin-right-34 {
+	margin-right: 34px;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-top-5 {
+	margin-top: 5px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-top-36 {
+	margin-top: 36px;
+}
+
+.margin-buttom {
+	margin-bottom: 5px;
+}
+
+.margin-buttom-10 {
+	margin-bottom: 10px;
+}
+
+.margin-lr {
+	margin: 0px 5px;
+}
+
+.margin-lr-15 {
+	margin: 0px 15px;
+}
+
+.margin-tb {
+	margin: 5px 0px;
+}
+
+.margin-center {
+	margin: 0 auto;
+}
+
+.padding-top-28 {
+	padding-top: 28px;
+}
+
+.padding-left-456 {
+	padding-left: 456px;
+}
+
+.padding-left-10 {
+	padding-left: 10px;
+}
+
+.padding-left-20 {
+	padding-left: 20px;
+}
+
+.padding-right-456 {
+	padding-right: 456px;
+}
+
+.padding-right-20 {
+	padding-right: 20px;
+}
+
+
+/*文本内容自动隐藏*/
+
+textarea {
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+
+/*超出两行隐藏*/
+
+.text-line-clamp {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.text-line-clamp-1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+
+
+/*超出一行隐藏*/
+
+.text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.font-weight {
+	font-weight: bold;
+}
+
+.a:hover {
+	cursor: pointer;
+}
+
+.button {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.button .button-main,
+.button-mian-hover:hover {
+	background: #FF2D52;
+	color: #fff;
+	/*border: none;*/
+	border-color: #EC193E;
+}
+
+.button .button-main:hover {
+	background-color: #EC193E;
+	border-color: #EC193E;
+}

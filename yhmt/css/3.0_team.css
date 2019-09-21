@@ -1,0 +1,163 @@
+/*团购列表*/
+
+.goods-select-lists li {
+	width: 5%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+
+.goods-select-describle {
+	background: #ededed;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.select-describle-lists {
+	height: 38px;
+	padding: 2px 0;
+}
+
+.select-describle-lists li {
+	float: left;
+	width: 84px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border-right: 1px solid #E2E2E2;
+}
+
+.select-describle-lists li:first-child {
+	text-align: left;
+}
+
+.select-describle-lists a {
+	display: inline-block;
+	width: 54px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	background: #FF2D52;
+	color: white;
+}
+
+.select-describle-text {
+	display: inline-block;
+	width: 354px;
+	line-height: 10px;
+	margin-top: 10px;
+}
+
+.select-describle-text div {
+	display: inline-block;
+}
+
+.select-describle-input {
+	width: 196px;
+}
+
+.select-describle-text1 {
+	display: inline-block;
+	width: 30px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	background: url(../img/serachicon.png) no-repeat;
+	background-color: #f5f5f5;
+	vertical-align: -4px;
+}
+
+.select-describle-text3 {
+	width: 226px;
+}
+
+.select-describle-text2 {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 18px;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+	background: #f5f5f5;
+	cursor: pointer;
+}
+
+.goods-select-goodslists li {
+	float: left;
+	margin-top: 10px;
+	width: 234px;
+	height: 322px;
+	border: 1px solid #E2E2E2;
+	padding: 10px 12px;
+	margin-right: 7px;
+	position: relative;
+}
+
+.goods-select-goodslists li:last-child {
+	margin-right: 0;
+}
+
+.goods-select-goodslists p {
+	line-height: 20px;
+}
+
+.goods-select-text4 {
+	display: inline-block;
+	width: 60px;
+	height: 8px;
+	border: 1px solid #FF2D52;
+	border-radius: 6px;
+}
+
+.goods-select-text5 {
+	width: 30px;
+	height: 6px;
+	background: #FF2D52;
+}
+
+.goods-select-none {
+	width: 234px;
+	height: 322px;
+	border: 2px solid red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.goods-select-none a {
+	display: inline-block;
+	width: 230px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background: #FF2D52;
+	margin-top: 280px;
+}
+
+.goods-select-goodslists li:hover .goods-select-none {
+	display: block;
+}
+
+.goods-select-goodslists li:last-child img {
+	position: relative;
+}
+
+.goods-select-radius {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	background: #9d9d9d;
+	position: absolute;
+	top: 74px;
+	left: 78px;
+	color: white;
+	opacity: 0.5;
+}
+
+.vertcal {
+	vertical-align: 2px;
+}

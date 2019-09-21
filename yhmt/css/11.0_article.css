@@ -1,0 +1,88 @@
+/*文章详情列表*/
+
+.article-common-title {
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+}
+
+.article-common-title span {
+	display: inline-block;
+	line-height: 50px;
+}
+
+.article-allLists-box {
+	border: 1px solid #E2E2E2;
+}
+
+.article-content {
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.article-content li {
+	padding: 0 30px;
+}
+
+.article-content-title {
+	height: 60px;
+	border-bottom: 1px dashed #E2E2E2;
+	line-height: 59px;
+}
+
+.article-content-box {
+	width: 900px;
+	height: 196px;
+	padding: 20px 0 24px 0;
+}
+
+.article-content {
+	width: 960px;
+}
+
+.article-content-text {
+	display: inline-block;
+	padding-left: 28px;
+	width: 700px;
+	height: 150px;
+}
+
+.article-content-text p {
+	line-height: 22px;
+}
+
+.article-content-text a {
+	display: inline-block;
+	line-height: 20px;
+}
+
+.article-allLists-box ul:last-child {
+	border-bottom: none;
+}
+
+.article-more {
+	width: 220px;
+	border: 1px solid #E2E2E2;
+}
+
+.article-more-title {
+	height: 38px;
+	line-height: 37px;
+	padding-left: 15px;
+	border-bottom: 1px solid #E2E2E2;
+	background: #fff9f5;
+}
+
+.article-more-text {
+	padding: 10px 20px;
+}
+
+.article-more-text li {
+	width: 220px;
+	height: 24px;
+	line-height: 20px;
+	list-style: disc;
+}
+
+.article-more-text a {
+	width: 170px;
+}

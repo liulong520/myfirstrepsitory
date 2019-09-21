@@ -1,0 +1,141 @@
+/*顶部导航*/
+
+.top-nav {
+	height: 35px;
+	line-height: 34px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+/*搜索框*/
+
+.serach-box {
+	display: inline-block;
+	margin-left: 190px;
+}
+
+.search {
+	border: 2px solid #FF2D52;
+	font-size: 0;
+}
+
+.search-input {
+	border: 0;
+	height: 37px;
+	width: 430px;
+	padding-left: 30px;
+	background: url(../img/icon.png) no-repeat 10px center;
+}
+
+.search-input:focus {
+	outline: none;
+}
+
+.serach-btn {
+	display: inline-block;
+	height: 38px;
+	width: 80px;
+	font-size: 16px;
+	background: #FF2D52;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+}
+
+.search-text {
+	margin-top: 10px;
+}
+
+
+/*主导航*/
+
+.main-nav {
+	height: 40px;
+	line-height: 38px;
+}
+
+.classfl-all {
+	width: 200px;
+	position: relative;
+}
+
+.text-center:hover {
+	background: #ec193e;
+}
+
+.classfl-lists li {
+	background: #FF2D52;
+	height: 51px;
+	line-height: 51px;
+	border-bottom: 1px solid #EC193E;
+	padding: 0 20px 0 30px;
+}
+
+.classfl-lists li:hover {
+	background: #ec193e;
+}
+
+.classfl-all:hover,
+.classfl-all.static {
+	background: #ec193e;
+}
+
+.classfl-lists {
+	width: 100%;
+	position: absolute;
+	display: none;
+}
+
+.classfl-all.static .classfl-lists,
+.classfl-all:hover .classfl-lists {
+	display: block;
+	z-index: 10;
+}
+
+.list {
+	padding-right: 20px;
+}
+
+.shop-lists li {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 30px;
+}
+
+.shop-lists li:hover {
+	background: #ec193e;
+	cursor: pointer;
+}
+
+.classfl-tow {
+	width: 720px;
+	height: 304px;
+	background: white;
+	border: 1px solid #ff7011;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	color: #000;
+	display: none;
+	padding: 0 10px;
+}
+
+.classfl-lists li:hover .classfl-tow {
+	display: block;
+}
+
+.classfl-tow-lists {
+	width: 50%;
+	padding: 0 10px;
+	float: left;
+}
+
+.classfl-tow-lists .title {
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.classfl-tow-lists .lists {
+	line-height: 20px;
+}

@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*内容包含border,padding*/
+}
+
+body {
+	font-size: 12px;
+	min-width: 1200px;
+	color: #333;
+	font-family: "微软雅黑", arial;
+}
+
+
+/*行列样式*/
+
+li {
+	list-style: none;
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+span {
+	display: inline-block;
+}

@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cellkill {
+	width: 100%;
+	height: 452px;
+	padding: 72px 0;
+	position: relative;
+}
+.onbox{
+	width: 100%;
+	height: 452px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*border: 1px solid #9A6E3A;*/
+}
+
+.onbox-top{
+	height: 80px;
+	background: url(../img/bgred.png) no-repeat;
+}
+
+.onbox-top .content{
+	height: 100%;
+	line-height: 80px;
+}
+
+.icon-yousanjiao.iconfont1{
+	font-size: 28px;
+}
+
+.onbox-buttom{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	background: #343434;
+}
+
+.onbox-lists li{
+	width: 20%;
+	height: 60px;
+	border-top: 2px solid transparent;
+	text-align: center;
+	color: #878888;
+	font-size: 14px;
+	float: left;
+}
+
+.onbox-lists span{
+	margin: 0 auto;
+	line-height: 56px;
+}
+
+.onbox-lists-text.on span{
+	line-height: 10px;
+	padding-top: 14px;
+}
+
+.onbox-lists li:hover{
+	border-top: 2px solid #ff2d52;
+	background: #121212;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.onbox-lists li:hover .onbox-lists-text1{
+	color: #FF2D52;
+}
+.cellkill-goods-lists li{
+	float: left;
+	width: 232px;
+	height: 320px;
+	/*border: 2px solid transparent;*/
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.cellkill-goods-lists li:last-child {
+	margin-right: 0;
+}
+
+/*.cellkill-goods-lists li:hover {
+	border: 2px solid #FF2D52;
+}*/
+
+.cellkill-goods-box {
+	width: 228px;
+	height: 318px;
+	border: 1px solid #E2E2E2;
+	position: relative;
+}
+
+.cellkill-goods-img {
+	width: 226px;
+	height: 277px;
+	border: 2px solid transparent;
+	/*border-bottom: 0;*/
+	padding: 10px;
+}
+
+.cellkill-goods-lists li:hover .cellkill-goods-img{
+	border: 2px solid #FF2D52;
+	border-bottom: 0;
+} 
+
+.cellkill-goods-img img {
+	width: 204px;
+	height: 210px;
+}
+
+.cellkill-goods-text {
+	height: 50px;
+	line-height: 22px;
+}
+
+.cellkill-goods-price {
+	width: 226px;
+	height: 40px;
+	background: #ff2d52;
+	line-height: 40px;
+}
+
+.cellkill-goods-price.b {
+	background: #ff607c;
+}
+
+.cellkill-goods-price.d {
+	background: #999999;
+}
+
+.cellkill-goods-text1 {
+	width: 76px;
+	height: 36px;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 36px;
+	margin: 2px 0;
+	margin-right: 2px;
+	color: #FF2D52;
+}
+
+.cellkill-radius {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #8a8a8a;
+	text-align: center;
+	line-height: 80px;
+	color: #FFFFFF;
+	font-size: 18px;
+	position: absolute;
+	top: 74px;
+	left: 74px;
+	opacity: 0.5;
+}
+
+.cellkill-tab {
+	text-align: center;
+}
+
+.cellkill-tab-btn {
+	padding: 0 24px;
+	color: #FFFFFF;
+	font-size: 18px;
+	border: 0;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.cellkill-tab-btn.pre {
+	background: #cccccc;
+}
+
+.cellkill-tab-btn.next {
+	background: #666666;
+}

@@ -1,0 +1,24 @@
+/**/
+
+.article-goods-detail {
+	width: 960px;
+	border: none;
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+.article-goods-detail p {
+	width: 960px;
+}
+
+.article-goods-detail p:hover {
+	background: none;
+}
+
+.article-goods-text1 {
+	width: 960px;
+	padding-left: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+}

@@ -1,0 +1,126 @@
+.verify-info{
+	width: 100%;
+	border-bottom: 1px solid #e2e2e2;
+}
+.verify-info span{
+	height: 56px;
+	line-height: 54px;
+	border-bottom: 2px solid #FF2D52;
+}
+.verify-address{
+	width: 100%;
+	
+}
+.verify-address-text li{
+	float: left;
+	width: 260px;
+	height: 156px;
+	margin-right: 20px;
+	border: 1px solid #E2E2E2;
+	position: relative;
+}
+.verify-address-text1{
+	width: 258px;
+	height: 154px;
+	padding: 20px 20px 20px 24px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.verify-address-text2{
+	width: 100%;
+	height: 100%;
+	line-height: 20px;
+	padding-top: 36px;
+	text-align: center;
+}
+
+.verify-address-none{
+	display: none;
+}
+.verify-address-radius2,
+.verify-address-radius1{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 26px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.verify-address-radius2{
+	background: #ff7011;
+	color: #fff2e9;
+}
+.verify-address-radius1{
+	background: #E2E2E2;
+	color: #FFFFFF;
+}
+.verify-methoy{
+	width: 100%;
+	
+}
+.verify-methoy-title,.fahuo-title{
+	line-height: 54px;
+}
+
+.verify-methoy-lists li{
+	float: left;
+	height: 40px;
+	border: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 30px;
+	margin-right: 20px;
+}
+.fahuo-list{
+	width: 100%;
+	padding: 20px;
+	border: 1px solid #E2E2E2;
+}
+.fahuo-list-header{
+	height: 38px;
+	line-height: 38px;
+	background: #fff9f5;
+}
+.fahuo-list-text{
+	margin-right: 114px;
+}
+.fahuo-list-headerlists span{
+	width: 180px;
+	text-align: center;
+}
+.fahuo-lists li{
+	width: 100%;
+	height: 120px;
+	padding: 20px;
+	padding-right: 0;
+	background: #fff9f5;
+	margin-top: 2px;
+}
+.fahuo-lists-text1{
+	width: 258px;
+	height: 80px;
+	padding-top: 10px;
+	padding-left: 20px;
+	vertical-align: 36px;
+}
+.fahuo-lists-text2{
+	width: 62px;
+	
+	margin-left: 69px;
+}
+.fahuo-lists-text3{
+	width: 44px;
+	height: 20px;
+}
+.fahuo-lists-text4{
+	width: 44px;
+	height: 20px;
+	line-height: 18px;
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid #FF2D52;
+	color: #FF2D52;
+	margin: 0 auto;
+	margin-top: 10px;
+}

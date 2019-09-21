@@ -1,0 +1,302 @@
+.store {
+	width: 100%;
+	height: 400px;
+	background: #ededed;
+}
+
+.store-banner-box {
+	margin: 0 auto;
+	width: 1200px;
+	height: 400px;
+	position: relative;
+}
+
+.store-self {
+	width: 270px;
+	height: 322px;
+	background: #FFFFFF;
+	padding-top: 30px;
+	padding-left: 18px;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.store-box1 {
+	width: 226px;
+	height: 144px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.store-box2 {
+	width: 104px;
+	height: 144px;
+}
+
+.store-radius {
+	width: 90px;
+	height: 90px;
+	border: 1px solid #E2E2E2;
+	border-radius: 50%;
+	background: url(../img/userimg.png) no-repeat;
+}
+
+.store-text {
+	width: 120px;
+	height: 144px;
+	padding-left: 14px;
+}
+
+.store-text p {
+	margin-top: 10px;
+}
+
+.store-text1 {
+	display: inline-block;
+}
+
+.store-text2 {
+	margin-top: 10px;
+	width: 100%;
+	height: 10px;
+	background: #eeeeee;
+}
+
+.store-text3 {
+	width: 20%;
+	height: 10px;
+	background: #FF2D52;
+}
+
+.store-text4 {
+	width: 60px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border: 0;
+	background: #FF0000;
+	color: white;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+.store-jifen {
+	width: 240px;
+	height: 32px;
+	margin-top: 24px;
+}
+
+.store-jifen-left {
+	width: 30px;
+	height: 30px;
+}
+
+.store-jifen-right {
+	width: 200px;
+	height: 34px;
+	padding-left: 8px;
+}
+
+.store-banner {
+	width: 680px;
+	height: 400px;
+	margin-left: 290px;
+}
+
+
+/*<!--优惠卷兑换-->*/
+
+.discountent-title {
+	width: 100%;
+	height: 60px;
+}
+
+.discountent-title1 {
+	display: inline-block;
+	width: 142px;
+	height: 60px;
+	line-height: 58px;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+}
+
+.discountent-title1:hover {
+	border-bottom: 2px solid #FF2D52;
+}
+
+.discountent-box {
+	width: 100%;
+	height: 220px;
+	border: 1px solid #E2E2E2;
+}
+
+.discountent-lists li {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.discountent-text {
+	width: 280px;
+	height: 178px;
+	background: #fff9f5;
+	border-bottom: 1px solid #E2E2E2;
+	border-top: 1px solid #E2E2E2;
+	margin: 20px 0 20px 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.discountent-text1 {
+	width: 100%;
+	height: 102px;
+	border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2;
+	border-bottom: 1px dashed #E2E2E2;
+}
+
+.discountent-text2 {
+	width: 100%;
+	height: 74px;
+	border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2;
+}
+
+.discountent-text3 {
+	width: 98px;
+	height: 102px;
+	line-height: 102px;
+	text-align: center;
+}
+
+.discountent-text4 {
+	width: 177px;
+	height: 102px;
+	padding-top: 18px;
+}
+
+.discountent-text4 p {
+	margin-top: 6px;
+}
+
+.discountent-text5 {
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #FF2D52;
+	color: white;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+
+.discountent-text6,
+.discountent-text7 {
+	width: 32px;
+	height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	;
+}
+
+.discountent-text6 {
+	top: 86px;
+	left: -17px
+}
+
+.discountent-text7 {
+	top: 86px;
+	left: 263px
+}
+
+
+/*限时兑换*/
+
+.discountent-title2 {
+	display: inline-block;
+	width: 142px;
+	height: 60px;
+	line-height: 58px;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+}
+
+.discountent-title2:hover {
+	border-bottom: 2px solid #FF2D52;
+}
+
+.limit-box {
+	width: 100%;
+	min-height: 372px;
+	padding: 20px;
+	border: 1px solid #E2E2E2;
+}
+
+.limit-box1 {
+	padding-top: 20px;
+	width: 100%;
+	min-height: 372px;
+	border: 1px solid #E2E2E2;
+}
+
+.limit-box1 .limit-lists li {
+	width: 214px;
+	height: 330px;
+	float: left;
+}
+
+.limit-lists li {
+	width: 214px;
+	height: 330px;
+	float: left;
+	margin-right: 20px;
+}
+
+.limit-text1,
+.limit-lists1 li {
+	width: 214px;
+	height: 330px;
+}
+
+.limit-lists1 li {
+	float: left;
+	margin: 0 0 20px 20px;
+}
+
+.limit-lists li:last-child {
+	margin-right: 0px;
+}
+
+.limit-text1 {
+	border: 2px solid transparent;
+}
+
+.limit-text2 {
+	width: 214px;
+	height: 328px;
+	border: 1px solid #E2E2E2;
+}
+
+.limit-text2 p {
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.limit-text3 {
+	display: inline-block;
+	width: 148px;
+	height: 36px;
+	line-height: 36px;
+	background: #FF2D52;
+	color: white;
+	margin-left: 33px;
+	border-radius: 4px;
+}
+
+.limit-lists li:hover .limit-text2 {
+	border: 1px solid #FF2D52;
+}

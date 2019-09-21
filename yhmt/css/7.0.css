@@ -1,0 +1,419 @@
+/*顶部导航*/
+
+.top-nav {
+	height: 35px;
+	line-height: 34px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+/*搜索框*/
+
+.serach-box {
+	display: inline-block;
+	margin-left: 190px;
+}
+
+.search {
+	border: 2px solid #FF2D52;
+	font-size: 0;
+}
+
+.search-input {
+	border: 0;
+	height: 37px;
+	width: 430px;
+	padding-left: 30px;
+	background: url(../img/icon.png) no-repeat 10px center;
+}
+
+.search-input:focus {
+	outline: none;
+}
+
+.serach-btn {
+	display: inline-block;
+	height: 38px;
+	width: 80px;
+	font-size: 16px;
+	background: #FF2D52;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+}
+
+.search-text {
+	margin-top: 10px;
+}
+
+
+/*主导航*/
+
+.main-nav {
+	height: 40px;
+	line-height: 38px;
+}
+
+.classfl-all {
+	width: 200px;
+	position: relative;
+}
+
+.text-center:hover {
+	background: #ec193e;
+}
+
+.classfl-lists li {
+	background: #FF2D52;
+	height: 51px;
+	line-height: 51px;
+	border-bottom: 1px solid #EC193E;
+	padding: 0 20px 0 30px;
+}
+
+.classfl-lists li:hover {
+	background: #ec193e;
+}
+
+.classfl-all:hover .classfl-lists {
+	background: #ec193e;
+	display: block;
+}
+
+.classfl-lists {
+	width: 100%;
+	position: absolute;
+	display: none;
+}
+
+.list {
+	padding-right: 20px;
+}
+
+.shop-lists li {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 30px;
+}
+
+.shop-lists li:hover {
+	background: #ec193e;
+	cursor: pointer;
+}
+
+.classfl-tow {
+	width: 720px;
+	height: 304px;
+	background: white;
+	border: 1px solid #ff7011;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	color: #000;
+	display: none;
+	padding: 0 10px;
+}
+
+.classfl-lists li:hover .classfl-tow {
+	display: block;
+}
+
+.classfl-tow-lists {
+	width: 50%;
+	padding: 0 10px;
+	float: left;
+}
+
+.classfl-tow-lists .title {
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.classfl-tow-lists .lists {
+	line-height: 20px;
+}
+
+
+/*我的购物车*/
+
+.myshoplists {
+	min-height: 300px;
+}
+
+.myshoplists-title {
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	padding-left: 20px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.myshoplists-top {
+	background: #fff9f5;
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	padding: 10px 0 0 20px;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.checkboxtop {
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	margin: 0 176px 0 12px;
+}
+
+.shoplists li {
+	float: left;
+	display: inline-block;
+	margin-right: 122px;
+	height: ;
+}
+
+.shopname {
+	width: 100%;
+	height: 54px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.mylists li {
+	width: 100%;
+	min-height: 162px;
+	/*background: #fff9f5;*/
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding-top: 20px;
+}
+
+.shopcheckbox {
+	display: inline-block;
+	vertical-align: 34px;
+	margin-left: 20px;
+}
+
+.mylists-text1 {
+	display: inline-block;
+	width: 186px;
+	height: 54px;
+	line-height: 25px;
+	margin-left: 14px;
+	vertical-align: 30px;
+}
+
+.mylists-text2 {
+	display: inline-block;
+	width: 160px;
+	height: 80px;
+	border: 1px dashed transparent;
+	vertical-align: 37px;
+	padding: 14px 84px 0 12px;
+}
+
+.mylists-text2:hover {
+	border: 1px dashed #FF2D52;
+}
+
+.mylists-text3 {
+	display: inline-block;
+	width: 196px;
+	height: 96px;
+	margin-left: 24px;
+	padding-left: 60px;
+	vertical-align: 20px;
+}
+
+.mylists-text3 span {
+	display: block;
+	width: 74px;
+	height: 22px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.mylists-text4 {
+	border: 1px solid #ff2d52;
+	border-radius: 3px;
+	line-height: 20px;
+}
+
+.mylists-text5 {
+	display: inline-block;
+	width: 98px;
+	/*height: 28px;*/
+	border: 1px solid #E2E2E2;
+	vertical-align: 52px;
+}
+
+
+.mylists-text5 input{
+	float: left;
+}
+
+.mylists-text6 {
+	display: inline-block;
+	width: 60px;
+	height: 28px;
+	line-height: 26px;
+	text-align: center;
+	border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2;
+}
+
+.mylists-delete {
+	width: 130px;
+	height: 80px;
+}
+
+.mylists-text7 {
+	display: inline-block;
+	width: 210px;
+	height: 30px;
+	text-align: center;
+	vertical-align: 65px;
+}
+
+.mylists-text8 {
+	display: inline-block;
+	width: 102px;
+	height: 24px;
+	text-align: center;
+	vertical-align: 65px;
+}
+
+.mylists-text9 {
+	width: 40px;
+	height: 14px;
+	vertical-align: 36px;
+	margin-left: -88px;
+}
+
+.mylists-text9:hover {
+	cursor: pointer;
+}
+
+.mylists-text10 {
+	display: inline-block;
+	width: 1200px;
+	height: 40px;
+	line-height: 38px;
+	background: white;
+	border-top: 1px solid #E2E2E2;
+}
+
+.jiesuan {
+	margin: 20px 0;
+	background: #f7f7f7;
+	width: 100%;
+	height: 68px;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.jiesuan-text1 {
+	width: 30%;
+	height: 66px;
+}
+
+.jiesuan-text2 {
+	width: 50%;
+	height: 66px;
+	padding-top: 18px;
+	padding-right: 26px;
+	position: relative;
+}
+
+.jiesuan-text1 {
+	line-height: 10px;
+	padding-left: 20px;
+	margin-top: 28px;
+}
+
+.checkboxtopmid1 {
+	margin-right: 20px;
+}
+
+.jiesuan-text3 {
+	display: inline-block;
+	width: 160px;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+}
+
+.jiesuan-text5 {
+	width: 572px;
+	height: 18px;
+	line-height: 18px;
+}
+
+.jiesuan-text4 {
+	position: absolute;
+	right: 28px;
+	bottom: 8px;
+}
+
+.guess {
+	min-height: 322px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.guess-title {
+	background: #fff9f5;
+	width: 100%;
+	height: 38px;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	line-height: 36px;
+}
+
+.guess-title-text1 {
+	float: left;
+	width: 60px;
+}
+
+.guess-lists li {
+	float: left;
+	width: 180px;
+	min-height: 282px;
+	margin: 20px 10px;
+}
+
+.guess-lists-text1 {
+	display: inline-block;
+	width: 168px;
+	height: 40px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.guess-lists-text2 {
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+}
+/*计算价格*/
+input[type=number] {
+	-moz-appearance: textfield;
+	text-align: center;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.min,.add{
+	width: 18px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
